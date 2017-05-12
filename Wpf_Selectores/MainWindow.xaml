@@ -1,0 +1,27 @@
+﻿<Window x:Class="Wpf_Selectores.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <ComboBox Name="cbxCiudades" FontFamily="Arial" Foreground="Red" FontWeight="Bold" SelectedIndex="4">
+            <TextBlock>Huelva</TextBlock>
+            <TextBlock>Sevilla</TextBlock>
+            <TextBlock>Córdoba</TextBlock>
+            <TextBlock>Jaén</TextBlock>
+            <TextBlock>Almeria</TextBlock>
+            <TextBlock>Granada</TextBlock>
+            <TextBlock Foreground="RoyalBlue" >Málaga</TextBlock>
+            <TextBlock>Cádiz</TextBlock>
+        </ComboBox>
+        <ListBox Margin="20" Name="lbxCiudades" FontFamily="Arial" Foreground="Red" FontWeight="Bold" SelectedIndex="4" SelectionChanged="lbxCiudades_SelectionChanged" >
+            <TextBlock>Huelva</TextBlock>
+            <TextBlock>Sevilla</TextBlock>
+            <TextBlock>Córdoba</TextBlock>
+            <TextBlock>Jaén</TextBlock>
+            <TextBlock>Almeria</TextBlock>
+            <TextBlock>Granada</TextBlock>
+            <TextBlock Foreground="RoyalBlue" >Málaga</TextBlock>
+            <TextBlock>Cádiz</TextBlock>
+        </ListBox>
+    </StackPanel>
+</Window>
